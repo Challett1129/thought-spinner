@@ -1,6 +1,27 @@
 {
   "dependencies": {
     "express": "^4.17.1",
+    "jest": "^27.3.1",
     "mongoose": "^6.0.11"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "name": "thought-spinner",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Challett1129/thought-spinner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Challett1129/thought-spinner/issues"
+  },
+  "homepage": "https://github.com/Challett1129/thought-spinner#readme"
 }
