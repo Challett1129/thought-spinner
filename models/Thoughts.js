@@ -45,12 +45,10 @@ const ThoughtSchema = new Schema({
         default: Date.now,
         get: (timeStamp) => dateFormatter(timeStamp)
     },
-    username: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: 'User'
-        }
-    ],
+    username: {
+        type: String,
+        required: true
+    },
     reactions: [ReactionSchema]
 },
 {
